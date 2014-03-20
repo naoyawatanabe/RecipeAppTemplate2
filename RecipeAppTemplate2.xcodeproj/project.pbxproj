@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		356D1ED418D9AE880056E2E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356D1ED318D9AE880056E2E4 /* Foundation.framework */; };
+		356D1ED618D9AE880056E2E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356D1ED518D9AE880056E2E4 /* CoreGraphics.framework */; };
+		356D1ED818D9AE880056E2E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356D1ED718D9AE880056E2E4 /* UIKit.framework */; };
+		356D1EDE18D9AE880056E2E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 356D1EDC18D9AE880056E2E4 /* InfoPlist.strings */; };
+		356D1EE018D9AE880056E2E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D1EDF18D9AE880056E2E4 /* main.m */; };
+		356D1EE418D9AE880056E2E4 /* RecipeAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D1EE318D9AE880056E2E4 /* RecipeAppAppDelegate.m */; };
+		356D1EE718D9AE880056E2E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356D1EE518D9AE880056E2E4 /* Main.storyboard */; };
+		356D1EEA18D9AE880056E2E4 /* RecipeAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D1EE918D9AE880056E2E4 /* RecipeAppViewController.m */; };
+		356D1EEC18D9AE880056E2E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356D1EEB18D9AE880056E2E4 /* Images.xcassets */; };
+		356D1EF318D9AE880056E2E4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356D1EF218D9AE880056E2E4 /* XCTest.framework */; };
+		356D1EF418D9AE880056E2E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356D1ED318D9AE880056E2E4 /* Foundation.framework */; };
+		356D1EF518D9AE880056E2E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356D1ED718D9AE880056E2E4 /* UIKit.framework */; };
+		356D1EFD18D9AE880056E2E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 356D1EFB18D9AE880056E2E4 /* InfoPlist.strings */; };
+		356D1EFF18D9AE880056E2E4 /* RecipeAppTemplate2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D1EFE18D9AE880056E2E4 /* RecipeAppTemplate2Tests.m */; };
+		356D1F0A18D9AEC20056E2E4 /* RecipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D1F0918D9AEC20056E2E4 /* RecipeTableCell.m */; };
+		356D1F0D18D9AFB40056E2E4 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D1F0C18D9AFB40056E2E4 /* Recipe.m */; };
+		356D1F2118D9B2580056E2E4 /* angry_birds_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F0F18D9B2580056E2E4 /* angry_birds_cake.jpg */; };
+		356D1F2218D9B2580056E2E4 /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F1018D9B2580056E2E4 /* creme_brelee.jpg */; };
+		356D1F2318D9B2580056E2E4 /* egg_benedict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F1118D9B2580056E2E4 /* egg_benedict.jpg */; };
+		356D1F2418D9B2580056E2E4 /* full_breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F1218D9B2580056E2E4 /* full_breakfast.jpg */; };
+		356D1F2518D9B2580056E2E4 /* green_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F1318D9B2580056E2E4 /* green_tea.jpg */; };
+		356D1F2618D9B2580056E2E4 /* ham_and_cheese_panini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F1418D9B2580056E2E4 /* ham_and_cheese_panini.jpg */; };
+		356D1F2718D9B2580056E2E4 /* ham_and_egg_sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F1518D9B2580056E2E4 /* ham_and_egg_sandwich.jpg */; };
+		356D1F2818D9B2580056E2E4 /* hamburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F1618D9B2580056E2E4 /* hamburger.jpg */; };
+		356D1F2918D9B2580056E2E4 /* instant_noodle_with_egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F1718D9B2580056E2E4 /* instant_noodle_with_egg.jpg */; };
+		356D1F2A18D9B2580056E2E4 /* japanese_noodle_with_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F1818D9B2580056E2E4 /* japanese_noodle_with_pork.jpg */; };
+		356D1F2B18D9B2580056E2E4 /* mushroom_risotto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F1918D9B2580056E2E4 /* mushroom_risotto.jpg */; };
+		356D1F2C18D9B2580056E2E4 /* noodle_with_bbq_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F1A18D9B2580056E2E4 /* noodle_with_bbq_pork.jpg */; };
+		356D1F2D18D9B2580056E2E4 /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F1B18D9B2580056E2E4 /* photo-frame.png */; };
+		356D1F2E18D9B2580056E2E4 /* photo-frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F1C18D9B2580056E2E4 /* photo-frame@2x.png */; };
+		356D1F2F18D9B2580056E2E4 /* starbucks_coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F1D18D9B2580056E2E4 /* starbucks_coffee.jpg */; };
+		356D1F3018D9B2580056E2E4 /* thai_shrimp_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F1E18D9B2580056E2E4 /* thai_shrimp_cake.jpg */; };
+		356D1F3118D9B2580056E2E4 /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F1F18D9B2580056E2E4 /* vegetable_curry.jpg */; };
+		356D1F3218D9B2580056E2E4 /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 356D1F2018D9B2580056E2E4 /* white_chocolate_donut.jpg */; };
+		356D1F3518D9B3C80056E2E4 /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D1F3418D9B3C80056E2E4 /* RecipeDetailViewController.m */; };
+		356D1F3B18DA6DB10056E2E4 /* RecipeMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356D1F3A18DA6DB10056E2E4 /* RecipeMoreViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		356D1EF618D9AE880056E2E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 356D1EC818D9AE880056E2E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 356D1ECF18D9AE880056E2E4;
+			remoteInfo = RecipeAppTemplate2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		356D1ED018D9AE880056E2E4 /* RecipeAppTemplate2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeAppTemplate2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		356D1ED318D9AE880056E2E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		356D1ED518D9AE880056E2E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		356D1ED718D9AE880056E2E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		356D1EDB18D9AE880056E2E4 /* RecipeAppTemplate2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecipeAppTemplate2-Info.plist"; sourceTree = "<group>"; };
+		356D1EDD18D9AE880056E2E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		356D1EDF18D9AE880056E2E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		356D1EE118D9AE880056E2E4 /* RecipeAppTemplate2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecipeAppTemplate2-Prefix.pch"; sourceTree = "<group>"; };
+		356D1EE218D9AE880056E2E4 /* RecipeAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeAppAppDelegate.h; sourceTree = "<group>"; };
+		356D1EE318D9AE880056E2E4 /* RecipeAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeAppAppDelegate.m; sourceTree = "<group>"; };
+		356D1EE618D9AE880056E2E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		356D1EE818D9AE880056E2E4 /* RecipeAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeAppViewController.h; sourceTree = "<group>"; };
+		356D1EE918D9AE880056E2E4 /* RecipeAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeAppViewController.m; sourceTree = "<group>"; };
+		356D1EEB18D9AE880056E2E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		356D1EF118D9AE880056E2E4 /* RecipeAppTemplate2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeAppTemplate2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		356D1EF218D9AE880056E2E4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		356D1EFA18D9AE880056E2E4 /* RecipeAppTemplate2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecipeAppTemplate2Tests-Info.plist"; sourceTree = "<group>"; };
+		356D1EFC18D9AE880056E2E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		356D1EFE18D9AE880056E2E4 /* RecipeAppTemplate2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeAppTemplate2Tests.m; sourceTree = "<group>"; };
+		356D1F0818D9AEC20056E2E4 /* RecipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeTableCell.h; sourceTree = "<group>"; };
+		356D1F0918D9AEC20056E2E4 /* RecipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeTableCell.m; sourceTree = "<group>"; };
+		356D1F0B18D9AFB40056E2E4 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		356D1F0C18D9AFB40056E2E4 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		356D1F0F18D9B2580056E2E4 /* angry_birds_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake.jpg; sourceTree = "<group>"; };
+		356D1F1018D9B2580056E2E4 /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creme_brelee.jpg; sourceTree = "<group>"; };
+		356D1F1118D9B2580056E2E4 /* egg_benedict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = egg_benedict.jpg; sourceTree = "<group>"; };
+		356D1F1218D9B2580056E2E4 /* full_breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = full_breakfast.jpg; sourceTree = "<group>"; };
+		356D1F1318D9B2580056E2E4 /* green_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green_tea.jpg; sourceTree = "<group>"; };
+		356D1F1418D9B2580056E2E4 /* ham_and_cheese_panini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_cheese_panini.jpg; sourceTree = "<group>"; };
+		356D1F1518D9B2580056E2E4 /* ham_and_egg_sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_egg_sandwich.jpg; sourceTree = "<group>"; };
+		356D1F1618D9B2580056E2E4 /* hamburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamburger.jpg; sourceTree = "<group>"; };
+		356D1F1718D9B2580056E2E4 /* instant_noodle_with_egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instant_noodle_with_egg.jpg; sourceTree = "<group>"; };
+		356D1F1818D9B2580056E2E4 /* japanese_noodle_with_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japanese_noodle_with_pork.jpg; sourceTree = "<group>"; };
+		356D1F1918D9B2580056E2E4 /* mushroom_risotto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mushroom_risotto.jpg; sourceTree = "<group>"; };
+		356D1F1A18D9B2580056E2E4 /* noodle_with_bbq_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodle_with_bbq_pork.jpg; sourceTree = "<group>"; };
+		356D1F1B18D9B2580056E2E4 /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame.png"; sourceTree = "<group>"; };
+		356D1F1C18D9B2580056E2E4 /* photo-frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame@2x.png"; sourceTree = "<group>"; };
+		356D1F1D18D9B2580056E2E4 /* starbucks_coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starbucks_coffee.jpg; sourceTree = "<group>"; };
+		356D1F1E18D9B2580056E2E4 /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thai_shrimp_cake.jpg; sourceTree = "<group>"; };
+		356D1F1F18D9B2580056E2E4 /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable_curry.jpg; sourceTree = "<group>"; };
+		356D1F2018D9B2580056E2E4 /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_chocolate_donut.jpg; sourceTree = "<group>"; };
+		356D1F3318D9B3C80056E2E4 /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		356D1F3418D9B3C80056E2E4 /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
+		356D1F3918DA6DB10056E2E4 /* RecipeMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeMoreViewController.h; sourceTree = "<group>"; };
+		356D1F3A18DA6DB10056E2E4 /* RecipeMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeMoreViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		356D1ECD18D9AE880056E2E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356D1ED618D9AE880056E2E4 /* CoreGraphics.framework in Frameworks */,
+				356D1ED818D9AE880056E2E4 /* UIKit.framework in Frameworks */,
+				356D1ED418D9AE880056E2E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		356D1EEE18D9AE880056E2E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356D1EF318D9AE880056E2E4 /* XCTest.framework in Frameworks */,
+				356D1EF518D9AE880056E2E4 /* UIKit.framework in Frameworks */,
+				356D1EF418D9AE880056E2E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		356D1EC718D9AE880056E2E4 = {
+			isa = PBXGroup;
+			children = (
+				356D1ED918D9AE880056E2E4 /* RecipeAppTemplate2 */,
+				356D1EF818D9AE880056E2E4 /* RecipeAppTemplate2Tests */,
+				356D1ED218D9AE880056E2E4 /* Frameworks */,
+				356D1ED118D9AE880056E2E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		356D1ED118D9AE880056E2E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				356D1ED018D9AE880056E2E4 /* RecipeAppTemplate2.app */,
+				356D1EF118D9AE880056E2E4 /* RecipeAppTemplate2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		356D1ED218D9AE880056E2E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				356D1ED318D9AE880056E2E4 /* Foundation.framework */,
+				356D1ED518D9AE880056E2E4 /* CoreGraphics.framework */,
+				356D1ED718D9AE880056E2E4 /* UIKit.framework */,
+				356D1EF218D9AE880056E2E4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		356D1ED918D9AE880056E2E4 /* RecipeAppTemplate2 */ = {
+			isa = PBXGroup;
+			children = (
+				356D1F0E18D9B2580056E2E4 /* simpletable_image_pack */,
+				356D1EE218D9AE880056E2E4 /* RecipeAppAppDelegate.h */,
+				356D1EE318D9AE880056E2E4 /* RecipeAppAppDelegate.m */,
+				356D1EE518D9AE880056E2E4 /* Main.storyboard */,
+				356D1EE818D9AE880056E2E4 /* RecipeAppViewController.h */,
+				356D1EE918D9AE880056E2E4 /* RecipeAppViewController.m */,
+				356D1EEB18D9AE880056E2E4 /* Images.xcassets */,
+				356D1EDA18D9AE880056E2E4 /* Supporting Files */,
+				356D1F0818D9AEC20056E2E4 /* RecipeTableCell.h */,
+				356D1F0918D9AEC20056E2E4 /* RecipeTableCell.m */,
+				356D1F0B18D9AFB40056E2E4 /* Recipe.h */,
+				356D1F0C18D9AFB40056E2E4 /* Recipe.m */,
+				356D1F3318D9B3C80056E2E4 /* RecipeDetailViewController.h */,
+				356D1F3418D9B3C80056E2E4 /* RecipeDetailViewController.m */,
+				356D1F3918DA6DB10056E2E4 /* RecipeMoreViewController.h */,
+				356D1F3A18DA6DB10056E2E4 /* RecipeMoreViewController.m */,
+			);
+			path = RecipeAppTemplate2;
+			sourceTree = "<group>";
+		};
+		356D1EDA18D9AE880056E2E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				356D1EDB18D9AE880056E2E4 /* RecipeAppTemplate2-Info.plist */,
+				356D1EDC18D9AE880056E2E4 /* InfoPlist.strings */,
+				356D1EDF18D9AE880056E2E4 /* main.m */,
+				356D1EE118D9AE880056E2E4 /* RecipeAppTemplate2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		356D1EF818D9AE880056E2E4 /* RecipeAppTemplate2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				356D1EFE18D9AE880056E2E4 /* RecipeAppTemplate2Tests.m */,
+				356D1EF918D9AE880056E2E4 /* Supporting Files */,
+			);
+			path = RecipeAppTemplate2Tests;
+			sourceTree = "<group>";
+		};
+		356D1EF918D9AE880056E2E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				356D1EFA18D9AE880056E2E4 /* RecipeAppTemplate2Tests-Info.plist */,
+				356D1EFB18D9AE880056E2E4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		356D1F0E18D9B2580056E2E4 /* simpletable_image_pack */ = {
+			isa = PBXGroup;
+			children = (
+				356D1F0F18D9B2580056E2E4 /* angry_birds_cake.jpg */,
+				356D1F1018D9B2580056E2E4 /* creme_brelee.jpg */,
+				356D1F1118D9B2580056E2E4 /* egg_benedict.jpg */,
+				356D1F1218D9B2580056E2E4 /* full_breakfast.jpg */,
+				356D1F1318D9B2580056E2E4 /* green_tea.jpg */,
+				356D1F1418D9B2580056E2E4 /* ham_and_cheese_panini.jpg */,
+				356D1F1518D9B2580056E2E4 /* ham_and_egg_sandwich.jpg */,
+				356D1F1618D9B2580056E2E4 /* hamburger.jpg */,
+				356D1F1718D9B2580056E2E4 /* instant_noodle_with_egg.jpg */,
+				356D1F1818D9B2580056E2E4 /* japanese_noodle_with_pork.jpg */,
+				356D1F1918D9B2580056E2E4 /* mushroom_risotto.jpg */,
+				356D1F1A18D9B2580056E2E4 /* noodle_with_bbq_pork.jpg */,
+				356D1F1B18D9B2580056E2E4 /* photo-frame.png */,
+				356D1F1C18D9B2580056E2E4 /* photo-frame@2x.png */,
+				356D1F1D18D9B2580056E2E4 /* starbucks_coffee.jpg */,
+				356D1F1E18D9B2580056E2E4 /* thai_shrimp_cake.jpg */,
+				356D1F1F18D9B2580056E2E4 /* vegetable_curry.jpg */,
+				356D1F2018D9B2580056E2E4 /* white_chocolate_donut.jpg */,
+			);
+			path = simpletable_image_pack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		356D1ECF18D9AE880056E2E4 /* RecipeAppTemplate2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356D1F0218D9AE880056E2E4 /* Build configuration list for PBXNativeTarget "RecipeAppTemplate2" */;
+			buildPhases = (
+				356D1ECC18D9AE880056E2E4 /* Sources */,
+				356D1ECD18D9AE880056E2E4 /* Frameworks */,
+				356D1ECE18D9AE880056E2E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecipeAppTemplate2;
+			productName = RecipeAppTemplate2;
+			productReference = 356D1ED018D9AE880056E2E4 /* RecipeAppTemplate2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		356D1EF018D9AE880056E2E4 /* RecipeAppTemplate2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356D1F0518D9AE880056E2E4 /* Build configuration list for PBXNativeTarget "RecipeAppTemplate2Tests" */;
+			buildPhases = (
+				356D1EED18D9AE880056E2E4 /* Sources */,
+				356D1EEE18D9AE880056E2E4 /* Frameworks */,
+				356D1EEF18D9AE880056E2E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				356D1EF718D9AE880056E2E4 /* PBXTargetDependency */,
+			);
+			name = RecipeAppTemplate2Tests;
+			productName = RecipeAppTemplate2Tests;
+			productReference = 356D1EF118D9AE880056E2E4 /* RecipeAppTemplate2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		356D1EC818D9AE880056E2E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RecipeApp;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = showandtell;
+				TargetAttributes = {
+					356D1EF018D9AE880056E2E4 = {
+						TestTargetID = 356D1ECF18D9AE880056E2E4;
+					};
+				};
+			};
+			buildConfigurationList = 356D1ECB18D9AE880056E2E4 /* Build configuration list for PBXProject "RecipeAppTemplate2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 356D1EC718D9AE880056E2E4;
+			productRefGroup = 356D1ED118D9AE880056E2E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				356D1ECF18D9AE880056E2E4 /* RecipeAppTemplate2 */,
+				356D1EF018D9AE880056E2E4 /* RecipeAppTemplate2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		356D1ECE18D9AE880056E2E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356D1F2418D9B2580056E2E4 /* full_breakfast.jpg in Resources */,
+				356D1EEC18D9AE880056E2E4 /* Images.xcassets in Resources */,
+				356D1F2E18D9B2580056E2E4 /* photo-frame@2x.png in Resources */,
+				356D1F2218D9B2580056E2E4 /* creme_brelee.jpg in Resources */,
+				356D1EDE18D9AE880056E2E4 /* InfoPlist.strings in Resources */,
+				356D1F2D18D9B2580056E2E4 /* photo-frame.png in Resources */,
+				356D1F2918D9B2580056E2E4 /* instant_noodle_with_egg.jpg in Resources */,
+				356D1F2818D9B2580056E2E4 /* hamburger.jpg in Resources */,
+				356D1F2C18D9B2580056E2E4 /* noodle_with_bbq_pork.jpg in Resources */,
+				356D1F3118D9B2580056E2E4 /* vegetable_curry.jpg in Resources */,
+				356D1F3018D9B2580056E2E4 /* thai_shrimp_cake.jpg in Resources */,
+				356D1F3218D9B2580056E2E4 /* white_chocolate_donut.jpg in Resources */,
+				356D1F2118D9B2580056E2E4 /* angry_birds_cake.jpg in Resources */,
+				356D1EE718D9AE880056E2E4 /* Main.storyboard in Resources */,
+				356D1F2618D9B2580056E2E4 /* ham_and_cheese_panini.jpg in Resources */,
+				356D1F2F18D9B2580056E2E4 /* starbucks_coffee.jpg in Resources */,
+				356D1F2518D9B2580056E2E4 /* green_tea.jpg in Resources */,
+				356D1F2B18D9B2580056E2E4 /* mushroom_risotto.jpg in Resources */,
+				356D1F2318D9B2580056E2E4 /* egg_benedict.jpg in Resources */,
+				356D1F2718D9B2580056E2E4 /* ham_and_egg_sandwich.jpg in Resources */,
+				356D1F2A18D9B2580056E2E4 /* japanese_noodle_with_pork.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		356D1EEF18D9AE880056E2E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356D1EFD18D9AE880056E2E4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		356D1ECC18D9AE880056E2E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356D1F0A18D9AEC20056E2E4 /* RecipeTableCell.m in Sources */,
+				356D1F3518D9B3C80056E2E4 /* RecipeDetailViewController.m in Sources */,
+				356D1F0D18D9AFB40056E2E4 /* Recipe.m in Sources */,
+				356D1F3B18DA6DB10056E2E4 /* RecipeMoreViewController.m in Sources */,
+				356D1EEA18D9AE880056E2E4 /* RecipeAppViewController.m in Sources */,
+				356D1EE418D9AE880056E2E4 /* RecipeAppAppDelegate.m in Sources */,
+				356D1EE018D9AE880056E2E4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		356D1EED18D9AE880056E2E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356D1EFF18D9AE880056E2E4 /* RecipeAppTemplate2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		356D1EF718D9AE880056E2E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 356D1ECF18D9AE880056E2E4 /* RecipeAppTemplate2 */;
+			targetProxy = 356D1EF618D9AE880056E2E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		356D1EDC18D9AE880056E2E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356D1EDD18D9AE880056E2E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		356D1EE518D9AE880056E2E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356D1EE618D9AE880056E2E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		356D1EFB18D9AE880056E2E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356D1EFC18D9AE880056E2E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		356D1F0018D9AE880056E2E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		356D1F0118D9AE880056E2E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		356D1F0318D9AE880056E2E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecipeAppTemplate2/RecipeAppTemplate2-Prefix.pch";
+				INFOPLIST_FILE = "RecipeAppTemplate2/RecipeAppTemplate2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		356D1F0418D9AE880056E2E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecipeAppTemplate2/RecipeAppTemplate2-Prefix.pch";
+				INFOPLIST_FILE = "RecipeAppTemplate2/RecipeAppTemplate2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		356D1F0618D9AE880056E2E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RecipeAppTemplate2.app/RecipeAppTemplate2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecipeAppTemplate2/RecipeAppTemplate2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RecipeAppTemplate2Tests/RecipeAppTemplate2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		356D1F0718D9AE880056E2E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RecipeAppTemplate2.app/RecipeAppTemplate2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecipeAppTemplate2/RecipeAppTemplate2-Prefix.pch";
+				INFOPLIST_FILE = "RecipeAppTemplate2Tests/RecipeAppTemplate2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		356D1ECB18D9AE880056E2E4 /* Build configuration list for PBXProject "RecipeAppTemplate2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356D1F0018D9AE880056E2E4 /* Debug */,
+				356D1F0118D9AE880056E2E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		356D1F0218D9AE880056E2E4 /* Build configuration list for PBXNativeTarget "RecipeAppTemplate2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356D1F0318D9AE880056E2E4 /* Debug */,
+				356D1F0418D9AE880056E2E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		356D1F0518D9AE880056E2E4 /* Build configuration list for PBXNativeTarget "RecipeAppTemplate2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356D1F0618D9AE880056E2E4 /* Debug */,
+				356D1F0718D9AE880056E2E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 356D1EC818D9AE880056E2E4 /* Project object */;
+}
